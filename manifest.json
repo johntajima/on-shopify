@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "On Shopify",
+  "version": "1.0.0",
+  "description" : "Check if site is on Shopify 😉",
+  "homepage_url": "http://github.com/JuanitoFatas/on-shopify",
+  "background" : {
+    "scripts": ["background.js"]
+  },
+  "page_action": {
+    "default_icon" : "images/shopify.png"
+  },
+  "permissions": [
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
